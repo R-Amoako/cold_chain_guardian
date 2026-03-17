@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+
+# Environment files
+.env
+.env.*
+
+# IDE / Editor
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Build / packaging
+build/
+dist/
+*.egg-info/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Local data / temp files
+tmp/
+temp/
+*.sqlite3
+
+# Node (if a small frontend is added later)
+node_modules/
+
+# Terraform / infrastructure
+.terraform/
+*.tfstate
+*.tfstate.*
+
+# Docker
+*.pid
+
+# Mac/Linux misc
+*.swp
+*~
