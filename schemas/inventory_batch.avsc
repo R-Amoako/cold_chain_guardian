@@ -1,0 +1,27 @@
+{
+    "type": "record",
+    "name": "InventoryBatch",
+    "namespace": "coldchain",
+    "fields": [
+        {
+            "name": "batch_id",
+            "type": "string"
+        },
+        {
+            "name": "fridge_id",
+            "type": "string"
+        },
+        {
+            "name": "medicine_name",
+            "type": "string"
+        },
+        {
+            "name": "safe_min_c",
+            "type": "float"
+        },
+        {
+            "name": "safe_max_c",
+            "type": "float"
+        }
+    ]
+}

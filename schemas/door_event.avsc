@@ -1,0 +1,23 @@
+{
+    "type": "record",
+    "name": "DoorEvent",
+    "namespace": "coldchain",
+    "fields": [
+        {
+            "name": "fridge_id",
+            "type": "string"
+        },
+        {
+            "name": "location",
+            "type": "string"
+        },
+        {
+            "name": "event_type",
+            "type": "string"
+        },
+        {
+            "name": "event_time",
+            "type": "string"
+        }
+    ]
+}

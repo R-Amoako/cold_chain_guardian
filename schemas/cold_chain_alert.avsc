@@ -1,0 +1,31 @@
+{
+    "type": "record",
+    "name": "ColdChainAlert",
+    "namespace": "coldchain",
+    "fields": [
+        {
+            "name": "fridge_id",
+            "type": "string"
+        },
+        {
+            "name": "location",
+            "type": "string"
+        },
+        {
+            "name": "severity",
+            "type": "string"
+        },
+        {
+            "name": "temperature_c",
+            "type": "float"
+        },
+        {
+            "name": "message",
+            "type": "string"
+        },
+        {
+            "name": "event_time",
+            "type": "string"
+        }
+    ]
+}
